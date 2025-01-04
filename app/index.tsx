@@ -1,10 +1,9 @@
 import '../global.css';
 import { Text, View } from "react-native";
-
 export default function Index() {
   return (
-    <div className="bg-slate-100 rounded-xl">
-    <p className="text-5xl font-medium text-blue-500">Welcome to Tailwind</p>
-  </div>
+    <View>
+      <Image source={require('@/assets/images/splash.png')} style={{width: '100%', height: '100%'}}/>
+    </View>
   );
 }
